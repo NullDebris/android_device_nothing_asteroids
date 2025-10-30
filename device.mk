@@ -5,6 +5,7 @@
 
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 $(call inherit-product, vendor/nothing/asteroids/asteroids-vendor.mk)
+$(call inherit-product-if-exists, hardware/dolby/dolby.mk)
 
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
@@ -112,6 +113,8 @@ $(call soong_config_set_bool,nothing_fingerprint,use_lhbm,true)
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml
+
+TARGET_HAS_UDFPS := true
 
 # Bluetooth
 PRODUCT_COPY_FILES += \
