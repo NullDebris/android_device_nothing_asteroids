@@ -5,7 +5,7 @@
 //
 
 java_library {
-    name: "nt-fwk",
+    name: "nothing-fwk",
     installable: true,
 
     srcs: [
