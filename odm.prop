@@ -1,3 +1,8 @@
+# Nt-fwk (Nt feature)
+ro.build.nothing.feature.diff.device.Asteroids=0xa80c901acc038d140ad44002d8842080L
+ro.build.nothing.feature.diff.plus.Asteroids=0x4000000000000000000000L
+ro.build.nothing.feature.base=0x1004458438124a040126b4247b97ffL
+
 # USB
 ro.usb.uvc.disable_video_encode_flag=true
 ro.usb.uvc.enabled=true

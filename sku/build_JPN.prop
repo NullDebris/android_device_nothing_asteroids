@@ -3,3 +3,4 @@ ro.vendor.build.fingerprint=Nothing/AsteroidsJPN/Asteroids:14/UKQ1.241011.001/25
 ro.product.odm.name=AsteroidsJPN
 ro.product.vendor.name=AsteroidsJPN
 ro.product.odm.model=A059
+ro.build.nothing.feature.diff.product.AsteroidsJPN=0x100000120000000000000000000000L

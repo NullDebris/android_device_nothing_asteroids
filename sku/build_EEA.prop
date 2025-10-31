@@ -3,3 +3,4 @@ ro.vendor.build.fingerprint=Nothing/AsteroidsEEA/Asteroids:14/UKQ1.241011.001/25
 ro.product.odm.name=AsteroidsEEA
 ro.product.vendor.name=AsteroidsEEA
 ro.product.odm.model=A059
+ro.build.nothing.feature.diff.product.AsteroidsEEA=0x8000000000000000000000L
