@@ -18,7 +18,7 @@ PRODUCT_NAME := lineage_asteroids
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildFingerprint=Nothing/Asteroids/Asteroids:14/UKQ1.241011.001/2507171803:user/release-keys \
+    BuildFingerprint=Nothing/Asteroids/Asteroids:14/UKQ1.241011.001/2509241736:user/release-keys \
     DeviceName=Asteroids \
     DeviceProduct=Asteroids \
     SystemDevice=Asteroids \
