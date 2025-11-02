@@ -145,10 +145,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.config-V10-ndk.vendor \
     vendor.qti.hardware.display.config-V11-ndk.vendor
     
-# Doze
-PRODUCT_PACKAGES += \
-    NothingDoze
-
 # eUICC
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_JPN/android.hardware.telephony.euicc.xml \
