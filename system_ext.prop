@@ -31,9 +31,6 @@ sys.brightness.disable_gamma_conversion=true
 # DRM
 drm.service.enabled=true
 
-# Graphics
-ro.launcher.blur.appLaunch=0
-
 # Media
 media.stagefright.thumbnail.prefer_hw_codecs=true
 ro.media.recorder-max-base-layer-fps=60
