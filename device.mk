@@ -195,9 +195,6 @@ PRODUCT_PACKAGES += \
     android.hardware.health-service.qti \
     android.hardware.health-service.qti_recovery 
 
-# Init
-$(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_asteroids)
-
 PRODUCT_PACKAGES += \
     fstab.default \
     fstab.default.vendor_ramdisk \
