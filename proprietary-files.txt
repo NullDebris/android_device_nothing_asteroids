@@ -826,7 +826,11 @@ vendor/lib64/vendor.qti.hardware.camera.offlinecamera-service-impl.so
 vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 # Charging
+vendor/bin/hw/vendor.noth.hardware.charge-service
 vendor/etc/charger_fw_fstab.qti
+vendor/etc/init/vendor.noth.hardware.charge-service.rc
+vendor/etc/vintf/manifest/vendor.noth.hardware.charge-service.xml
+vendor/lib64/vendor.noth.hardware.charge-V1-ndk.so
 
 # Config Store
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service
