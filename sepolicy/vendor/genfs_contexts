@@ -1,5 +1,5 @@
 # Battery
-genfscon proc /charger/usb_charger_en    u:object_r:vendor_proc_power_supply:s0
+genfscon proc /charger   u:object_r:vendor_proc_power_supply:s0
 
 # Display
 genfscon sysfs /panel_feature/panel_id1    u:object_r:vendor_sysfs_graphics:s0
