@@ -70,6 +70,9 @@ on boot
     mkdir data/vendor/fpdump 0777 system system
     restorecon /data/vendor/fpdump
 
+    chmod 0660 /proc/touchpanel/TP_charger_flags
+    chown system system /proc/touchpanel/TP_charger_flags
+
 on property:sys.boot_completed=1
     swapon_all /odm/etc/fstab.zram.2g
 
