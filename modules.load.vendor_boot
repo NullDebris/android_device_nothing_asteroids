@@ -44,10 +44,6 @@ memory_dump_v2.ko
 minidump.ko
 msm_dma_iommu_mapping.ko
 msm_qmp.ko
-nothing_error_report.ko
-nothing_secure_element.ko
-nothing_virtual_ntc.ko
-nothing_writeback_kmsg.ko
 nvmem_qcom-spmi-sdam.ko
 nvmem_qfprom.ko
 phy-qcom-ufs-qmp-v4-crow.ko

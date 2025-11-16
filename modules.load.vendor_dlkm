@@ -126,14 +126,6 @@ msm_show_resume_irq.ko
 msm_sysstats.ko
 msm_video.ko
 nb7vpq904m.ko
-nothing_bootloader_log.ko
-nothing_check_parts.ko
-nothing_disk_usage.ko
-nothing_readahead_trace.ko
-nothing_restart_handler.ko
-nothing_task_info.ko
-nothing_task_meminfo.ko
-nothing_value_check.ko
 nt_display_notifier.ko
 ntfs3.ko
 ois_vdd_ctrl.ko
