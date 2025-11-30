@@ -170,14 +170,9 @@ PRODUCT_COPY_FILES += \
 
 
 # Graphics
-$(call soong_config_set,angle,angle_in_vendor,true)
-
 PRODUCT_REQUIRES_INSECURE_EXECMEM_FOR_SWIFTSHADER := true
 
 PRODUCT_PACKAGES += \
-    libEGL_angle \
-    libGLESv1_CM_angle \
-    libGLESv2_angle \
     vulkan.pastel
 
 # Glyph
