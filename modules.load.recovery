@@ -81,6 +81,7 @@ gh_virt_wdt.ko
 gic_intr_routing.ko
 glink_pkt.ko
 glink_probe.ko
+gpr_dlkm.ko
 gpu_dump_skip_cdev.ko
 gpucc-cliffs.ko
 gpucc-pineapple.ko
@@ -181,6 +182,8 @@ pmic-pon-log.ko
 pmic_glink.ko
 proxy-consumer.ko
 pwm-qti-lpg.ko
+q6_notifier_dlkm.ko
+q6_pdr_dlkm.ko
 qcom-cpufreq-hw-debug.ko
 qcom-cpufreq-hw.ko
 qcom-dcvs.ko
