@@ -27,6 +27,7 @@ gh_msgq.ko
 gh_rm_drv.ko
 gh_virt_wdt.ko
 gic_intr_routing.ko
+gpr_dlkm.ko
 gpucc-pineapple.ko
 gunyah_loader.ko
 gunyah_qcom.ko
@@ -60,6 +61,8 @@ pinctrl-pineapple.ko
 pinctrl-volcano.ko
 pmic-pon-log.ko
 proxy-consumer.ko
+q6_notifier_dlkm.ko
+q6_pdr_dlkm.ko
 qcom-cpufreq-hw.ko
 qcom-dcvs.ko
 qcom-i2c-pmic.ko
@@ -93,6 +96,7 @@ qrtr-gunyah.ko
 qrtr.ko
 qti-regmap-debugfs.ko
 rpmh-regulator.ko
+rproc_qcom_common.ko
 rtc-pm8xxx.ko
 sched-walt.ko
 sdhci-msm.ko
