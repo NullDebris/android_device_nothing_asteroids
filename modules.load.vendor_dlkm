@@ -104,7 +104,6 @@ machine_dlkm.ko
 max31760_fan.ko
 mbhc_dlkm.ko
 mem-hooks.ko
-mem-offline.ko
 memlat.ko
 mhi.ko
 mhi_dev_satellite.ko
