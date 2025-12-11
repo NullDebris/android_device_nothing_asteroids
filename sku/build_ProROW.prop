@@ -4,4 +4,4 @@ ro.product.odm.name=AsteroidsPro
 ro.product.vendor.name=AsteroidsPro
 ro.product.odm.model=A059P
 ro.product.vendor.model=A059P
-ro.build.nothing.feature.diff.product.AsteroidsPro=0x100000000000000000000000L
+ro.vendor.nothing.feature.diff.product.AsteroidsPro=0x100000000000000000000000L
