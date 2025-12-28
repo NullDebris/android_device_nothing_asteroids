@@ -314,6 +314,8 @@ PRODUCT_PACKAGES += \
     TelephonyResCommon_Sys \
     TelephonyResCommon_Vendor \
     UwbResCommon_Vendor \
+    WallpaperPicker2Overlay \
+    WallpaperPicker2PixelOverlay \
     WifiResCommonMainline_Vendor \
     WifiResCommon_Vendor \
     WifiResMainlineTarget \
