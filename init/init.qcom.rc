@@ -886,6 +886,14 @@ on charger
     setprop persist.sys.usb.config mass_storage
     start qcom-post-boot
 
+# NT,start charge service
+    start vendor.charge-default-poweroff
+
+service vendor.charge-default-poweroff /vendor/bin/hw/vendor.noth.hardware.charge-service
+    class core
+    group system
+    disabled
+
 #add poweroffhandler
 service poweroffhandler /system/vendor/bin/poweroffhandler
     class core
