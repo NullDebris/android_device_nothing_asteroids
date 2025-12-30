@@ -142,6 +142,7 @@ msm_show_epoch.ko
 msm_show_resume_irq.ko
 msm_sysstats.ko
 msm_video.ko
+nothing_virtual_ntc.ko
 nt_display_notifier.ko
 ntfs3.ko
 nvmem_qcom-spmi-sdam.ko
