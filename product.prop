@@ -28,3 +28,6 @@ masterclear.allow_retain_esim_profiles_after_fdr=true
 # Remote Key Provisioning (RKP)
 remote_provisioning.enable_rkpd=true
 remote_provisioning.hostname=remoteprovisioning.googleapis.com
+
+# Thermal
+persist.sys.sltntc.enable=1
