@@ -11,3 +11,6 @@
 
 # Lights
 /dev/led_strips   0664   system   system
+
+# Thermal
+/sys/devices/virtual/virtual_temp/shell/data  0660  system  system
