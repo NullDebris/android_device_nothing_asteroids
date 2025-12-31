@@ -88,9 +88,22 @@ on property:vendor.all.modules.ready=1
 
     start asteroids_nfc_detect
 
+on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=0
+	stop sltntc
+
+on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=1
+	start sltntc
+    
 service asteroids_nfc_detect /odm/bin/init.asteroids.nfc.sh
     class main
     user shell
     group shell
     disabled
     oneshot
+
+service sltntc /system_ext/bin/sltntc
+    class hal
+    user system
+    group system readproc root
+    disabled
+
