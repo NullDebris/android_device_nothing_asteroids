@@ -1746,7 +1746,6 @@ vendor/etc/init/vendor.qti.tftp.rc
 
 # Thermal
 system_ext/bin/sltntc
-system_ext/etc/init/sltntc.rc
 system_ext/etc/sltntc/sltntc.conf
 system_ext/etc/sltntc/sltntc_SM7635.conf
 vendor/bin/thermal-engine-v2
