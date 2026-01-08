@@ -53,7 +53,12 @@ ndk::ScopedAStatus Vibrator::getCapabilities(int32_t* _aidl_return) {
 }
 
 ndk::ScopedAStatus Vibrator::off() {
-    int32_t ret = aac_vibra_off();
+    bool ret = aac_vibra_looper_stopPerformHe();
+
+    if (ret) 
+        ALOGW("No HE effects to stop!");
+    
+    ret = aac_vibra_off();
     if (ret) {
         ALOGE("AAC off failed: %d\n", ret);
         return ndk::ScopedAStatus(AStatus_fromExceptionCode(EX_SERVICE_SPECIFIC));
@@ -127,6 +132,8 @@ ndk::ScopedAStatus Vibrator::perform(Effect effect, EffectStrength es,
 
     if (sLastMode == MODE_STREAM)
         aac_vibra_setAmplitude(0xFF);
+
+    aac_vibra_looper_stopPerformHe();
 
 #ifdef USE_RICHTAP_EFFECT_REMAP
     auto mappedEffect = mapEffectToPrebakedId(effect);
