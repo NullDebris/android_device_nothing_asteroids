@@ -14,5 +14,5 @@
 
     <!-- Microns/ums (1000 um = 1mm) per pixel for the given device. If unspecified, UI that
          relies on this value will not be sized correctly. -->
-    <item name="pixel_pitch" format="float" type="dimen">62.91</item>
+    <item name="pixel_pitch" format="float" type="dimen">50.0</item>
 </resources>
