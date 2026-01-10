@@ -6,7 +6,7 @@
 filegroup {
     name: "rildb_config_sql_files",
     srcs: [
-        "config/0015.1_config.sql",
+        "config/0016.1_config.sql",
     ],
 }
 
@@ -31,7 +31,7 @@ prebuilt_etc {
     src: ":qcril_config_database",
     relative_install_path: "qcril_database",
     required: [
-        "0015.1_config.sql",
+        "0016.1_config.sql",
     ],
     vendor: true,
 }
