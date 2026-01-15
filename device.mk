@@ -156,7 +156,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/sku_ProTUR/android.hardware.telephony.euicc.xml
 
 PRODUCT_PACKAGES += \
-    AsteroidsEuicc \
+    EuiccPolicy \
     default-permissions-com.google.android.euicc.xml
 
 # FWK Detect
@@ -292,6 +292,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     AsteroidsApertureDevOverlay \
     AsteroidsApertureOverlay \
+    AsteroidsEuiccOverlay \
     AsteroidsFrameworksOverlay \
     AsteroidsMainlineWifiOverlay \
     AsteroidsProMainlineWifiOverlay \
