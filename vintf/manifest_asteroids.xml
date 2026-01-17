@@ -6,4 +6,8 @@
     <hal format="aidl" override="true">
         <name>android.hardware.secure_element</name>
     </hal>
+    <hal format="aidl">
+        <name>android.hardware.nfc</name>
+        <fqname>INfc/default</fqname>
+    </hal>
 </manifest>
