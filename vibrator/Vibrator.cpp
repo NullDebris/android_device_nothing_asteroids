@@ -13,7 +13,7 @@
 
 #include "aac_vibra_function.h"
 
-#define RICHTAP_LIGHT_STRENGTH 69
+#define RICHTAP_LIGHT_STRENGTH 79
 #define RICHTAP_MEDIUM_STRENGTH 89
 #define RICHTAP_STRONG_STRENGTH 99
 
