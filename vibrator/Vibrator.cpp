@@ -133,7 +133,6 @@ ndk::ScopedAStatus Vibrator::perform(Effect effect, EffectStrength es,
     if (sLastMode == MODE_STREAM)
         aac_vibra_setAmplitude(0xFF);
 
-    aac_vibra_looper_stopPerformHe();
 
 #ifdef USE_RICHTAP_EFFECT_REMAP
     auto mappedEffect = mapEffectToPrebakedId(effect);
