@@ -92,6 +92,8 @@ persist.sys.fuse.passthrough.enable=true
 # Graphics
 debug.angle.feature_overrides_enabled=preferLinearFilterForYUV:mapUnspecifiedColorSpaceToPassThrough
 debug.graphics.game_default_frame_rate.disabled=0
+debug.hwui.target_cpu_time_percent=40
+debug.hwui.use_hint_manager=true
 debug.sf.auto_latch_unsignaled=1
 debug.sf.early.app.duration=13666666
 debug.sf.early.sf.duration=10500000
@@ -159,7 +161,6 @@ telephony.active_modems.max_count=2
 
 # QMS
 persist.vendor.data.qms.stx_disable=true
-
 
 # USB
 sys.usb.mtp.batchcancel=1
