@@ -5,14 +5,15 @@
 /vendor/lib64/camera/components/com\.qti\.stats\.pdlib\.so          u:object_r:same_process_hal_file:s0
 /vendor/lib64/com\.qti\.feature2\.hdr\.so                           u:object_r:same_process_hal_file:s0
 /vendor/lib64/com\.qti\.feature2\.rawhdr\.so                        u:object_r:same_process_hal_file:s0
-/vendor/lib64/libarcsoft_tfe_hdr\.so                                u:object_r:same_process_hal_file:s0
-/vendor/lib64/libarcsoft_tfe_hdr_front\.so                          u:object_r:same_process_hal_file:s0
+/vendor/lib64/libarcsoft_.*\.so                                     u:object_r:same_process_hal_file:s0
 /vendor/lib64/libcamxtintlessalgo\.so                               u:object_r:same_process_hal_file:s0
 /vendor/lib64/libipebpsstriping\.so                                 u:object_r:same_process_hal_file:s0
 /vendor/lib64/libjpege\.so                                          u:object_r:same_process_hal_file:s0
 /vendor/lib64/libtfestriping\.so                                    u:object_r:same_process_hal_file:s0
 /vendor/lib64/libvega_common\.so                                    u:object_r:same_process_hal_file:s0
 /vendor/lib64/libwa_sat\.so                                         u:object_r:same_process_hal_file:s0
+/vendor/lib64/libnoteengine\.so                                     u:object_r:same_process_hal_file:s0
+/vendor/lib64/libmpbase\.so                                         u:object_r:same_process_hal_file:s0
 
 # Charger
 /vendor/bin/hw/vendor\.noth\.hardware\.charge-service                 u:object_r:hal_nt_charger_exec:s0
