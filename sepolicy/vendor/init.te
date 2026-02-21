@@ -3,3 +3,5 @@ allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
 
 allow init vendor_configs_file:dir mounton;
 allow init vendor_configs_file:filesystem {mount relabelfrom relabelto};
+
+set_prop(vendor_init, vendor_nothing_feature_prop)
