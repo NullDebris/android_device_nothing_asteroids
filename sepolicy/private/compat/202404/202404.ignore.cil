@@ -6,4 +6,5 @@
 (typeattributeset new_objects
   ( new_objects
     glyph_app
-    sltntc))
+    sltntc
+    vendor_nothing_feature_prop))
