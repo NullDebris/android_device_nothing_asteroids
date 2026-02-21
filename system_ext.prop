@@ -14,7 +14,7 @@ persist.bluetooth.leaudio_offload.disabled=false
 ro.bluetooth.leaudio_offload.supported=true
 
 # Camera
-vendor.camera.aux.packagelist=com.nothing.camera,org.lineageos.aperture,org.lineageos.aperture.dev
+vendor.camera.aux.packagelist=com.nothing.camera,org.lineageos.aperture,org.lineageos.aperture.dev,org.codeaurora.snapcam
 
 # DPM
 persist.vendor.dpm.feature=11
