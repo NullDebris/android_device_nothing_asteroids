@@ -46,6 +46,14 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.imsrtpservice@3.1',
         'vendor.qti.qccvndhal_aidl-V1-ndk',
     ): lib_fixup_vendor_suffix,
+    (
+        'libar-pal',
+        'libar-acdb',
+        'liblx-osal',
+        'libats',
+        'libagm',
+        'libpalclient',
+    ): lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {
@@ -59,6 +67,10 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libbinder_shim.so'),
     'vendor/bin/xtra-daemon': blob_fixup()
         .add_needed('libbinder_shim.so'),
+    'vendor/etc/lvacfs_params/1mic/LVACFS_Configuration.txt': blob_fixup()
+        .patch_file('audio/lvacfs_1mic_config.patch'),
+    'vendor/etc/lvacfs_params/2mic/LVACFS_Configuration.txt': blob_fixup()
+        .patch_file('audio/lvacfs_2mic_config.patch'),
     'vendor/lib64/libarcsoft_dark_vision_raw.so': blob_fixup()
         .clear_symbol_version('remote_register_buf')
         .clear_symbol_version('rpcmem_alloc')
