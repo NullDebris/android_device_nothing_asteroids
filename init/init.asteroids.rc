@@ -97,6 +97,12 @@ on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=0
 on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=1
 	start sltntc
     
+on property:vendor.nfc.config_file_name=*
+    setprop persist.vendor.nfc.config_file_name ${vendor.nfc.config_file_name}
+
+on property:vendor.nfc_model=*
+    setprop persist.vendor.nfc_model ${vendor.nfc_model}
+
 service asteroids_nfc_detect /odm/bin/init.asteroids.nfc.sh
     class main
     user shell
