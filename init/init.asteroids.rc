@@ -91,9 +91,6 @@ on property:vendor.all.modules.ready=1
 
     start asteroids_nfc_detect
 
-on property:persist.vendor.nfc_model=*
-    start nfc_hal_service
-
 on property:sys.boot_completed=1 && property:persist.sys.sltntc.enable=0
 	stop sltntc
 
@@ -105,13 +102,6 @@ service asteroids_nfc_detect /odm/bin/init.asteroids.nfc.sh
     user shell
     group shell
     disabled
-    oneshot
-
-service nfc_hal_service /vendor/bin/hw/android.hardware.nfc-service-st
-    class hal
-    user nfc
-    group nfc
-    seclabel u:r:hal_nfc_default:s0
     oneshot
 
 service sltntc /system_ext/bin/sltntc

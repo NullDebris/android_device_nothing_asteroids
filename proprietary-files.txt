@@ -1200,16 +1200,13 @@ vendor/lib64/libpasrutils.so
 vendor/lib64/libvmmem.so
 
 # NFC
-vendor/bin/hw/android.hardware.nfc-service-st
 vendor/etc/st21nfc_conf_base.txt
 vendor/etc/st21nfc_conf_pro.txt
-vendor/etc/st54j_conf_felica.txt
 vendor/etc/st54j_conf.txt
+vendor/etc/st54j_conf_felica.txt
 vendor/firmware/st21nfc_fw7.bin
-vendor/firmware/st54j_fw_felica.bin
 vendor/firmware/st54j_fw.bin
-vendor/lib64/libstfactory-vendor.so
-vendor/lib64/nfc_nci.st21nfc.st.so
+vendor/firmware/st54j_fw_felica.bin
 
 # NTF
 system_ext/lib64/libntf.so;SYMLINK=system_ext/priv-app/qcrilmsgtunnel/lib/arm64/libntf.so
