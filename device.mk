@@ -141,6 +141,8 @@ PRODUCT_PACKAGES += \
     ipacm
 
 # Display
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/display_id_asteroids.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946978939328130.xml
 
