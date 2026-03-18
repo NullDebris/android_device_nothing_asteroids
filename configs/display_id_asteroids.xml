@@ -67,11 +67,11 @@
         </point>
         <point>
             <value>0.84074</value>
-            <nits>700.0</nits>
+            <nits>800.0</nits>
         </point>
         <point>
             <value>1.0</value>
-            <nits>1174.0</nits>
+            <nits>1300.0</nits>
         </point>
     </screenBrightnessMap>
 
@@ -112,24 +112,52 @@
             </point>
             <point>
                 <sdrNits>200.0</sdrNits>
-                <hdrRatio>4.0</hdrRatio>
+                <hdrRatio>5.0</hdrRatio>
             </point>
             <point>
                 <sdrNits>300.0</sdrNits>
-                <hdrRatio>3.0</hdrRatio>
+                <hdrRatio>4.5</hdrRatio>
             </point>
             <point>
                 <sdrNits>400.0</sdrNits>
-                <hdrRatio>2.5</hdrRatio>
+                <hdrRatio>4.25</hdrRatio>
             </point>
             <point>
                 <sdrNits>500.0</sdrNits>
-                <hdrRatio>2.2</hdrRatio>
+                <hdrRatio>4.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>700.0</sdrNits>
-                <hdrRatio>1.7</hdrRatio>
+                <sdrNits>800.0</sdrNits>
+                <hdrRatio>3.75</hdrRatio>
+            </point>
+            <point>
+                <sdrNits>1300.0</sdrNits> 
+                <hdrRatio>2.3</hdrRatio>
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
+    <thermalThrottling>
+        <throttlingMap>
+            <map>
+                <thermalStatus>light</thermalStatus>
+                <brightness>0.84074</brightness> 
+            </map>
+            <map>
+                <thermalStatus>moderate</thermalStatus>
+                <brightness>0.71959</brightness>
+            </map>
+            <map>
+                <thermalStatus>severe</thermalStatus>
+                <brightness>0.60503</brightness>
+            </map>
+            <map>
+                <thermalStatus>critical</thermalStatus>
+                <brightness>0.52614</brightness>
+            </map>
+            <map>
+                <thermalStatus>emergency</thermalStatus>
+                <brightness>0.36395</brightness>
+            </map>
+        </throttlingMap>
+    </thermalThrottling>
 </displayConfiguration>
