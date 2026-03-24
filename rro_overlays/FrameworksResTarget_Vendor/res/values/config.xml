@@ -58,4 +58,8 @@
          manually by the user. Off by default, since the expected haptic feedback may not be
          available on some devices. -->
     <bool name="config_enableHapticTextHandle">true</bool>
+
+     <!-- Whether WM DisplayContent supports high performance transitions
+         (lower-end devices may want to disable) -->
+    <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
 </resources>
