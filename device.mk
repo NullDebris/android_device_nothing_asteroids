@@ -169,7 +169,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EuiccPolicy \
-    default-permissions-com.google.android.euicc.xml
+    default-permissions-com.google.android.euicc.xml \
+    privapp-permissions-com.google.android.euicc.xml
 
 # FWK Detect
 PRODUCT_PACKAGES += \
