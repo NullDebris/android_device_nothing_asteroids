@@ -173,6 +173,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EuiccPolicy \
+    NothingEsimSwitcher \
     default-permissions-com.google.android.euicc.xml \
     privapp-permissions-com.google.android.euicc.xml
 
