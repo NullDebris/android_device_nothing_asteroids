@@ -3,7 +3,6 @@ ro.virtual_ab.compression.threads=true
 ro.virtual_ab.merge_delay_seconds=40
 
 # Adreno
-graphics.gpu.profiler.support=true
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
