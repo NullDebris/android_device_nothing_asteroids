@@ -1136,11 +1136,8 @@ vendor/lib64/libqtiidentitycredential.so
 vendor/bin/early_eth.sh
 vendor/bin/init.kernel.early_boot-memory.sh
 vendor/bin/init.kernel.post_boot-memory.sh
-vendor/bin/init.kernel.post_boot-volcano.sh
-vendor/bin/init.kernel.post_boot-volcano_2_2_1.sh
-vendor/bin/init.kernel.post_boot-volcano_3_2_1.sh
-vendor/bin/init.kernel.post_boot-volcano_4_3_0.sh
 vendor/bin/init.kernel.post_boot-volcano_default_4_3_1.sh
+vendor/bin/init.kernel.post_boot-volcano.sh
 vendor/bin/init.kernel.post_boot.sh
 vendor/bin/init.qti.kernel.sh
 vendor/bin/vendor_modprobe.sh
