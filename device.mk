@@ -142,6 +142,10 @@ PRODUCT_PACKAGES += \
     IPACM_cfg.xml \
     ipacm
 
+# Device Extras
+PRODUCT_PACKAGES += \
+    DeviceExtras
+
 # Display
 $(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
 
