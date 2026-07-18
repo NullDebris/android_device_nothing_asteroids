@@ -950,6 +950,11 @@ vendor/lib64/vendor.hardware.light-V1-ndk_platform.so
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # FeliCa
+product/app/MobileFeliCaClient/MobileFeliCaClient.apk
+product/app/MobileFeliCaMenuMainApp/MobileFeliCaMenuMainApp.apk
+product/app/MobileFeliCaSettingApp/MobileFeliCaSettingApp.apk
+product/app/MobileFeliCaWebPluginBoot/MobileFeliCaWebPluginBoot.apk
+product/etc/sysconfig/felica-allowlist.xml
 vendor/etc/felica/common.cfg
 vendor/etc/felica/mfm.cfg
 vendor/etc/felica/mfs.cfg
