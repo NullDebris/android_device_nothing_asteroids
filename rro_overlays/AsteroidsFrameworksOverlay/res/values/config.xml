@@ -118,6 +118,9 @@
         <item>"/vendor/lib64/libwa_sat.so"</item>
     </string-array>
 
+    <!-- Bytes that the PinnerService will pin for WebView -->
+    <integer name="config_pinnerWebviewPinBytes">20971520</integer>
+
     <!-- An array of device capabilities defined by GSMA SGP.22 v2.0.
          The first item is the capability name that the device supports. The second item is the
          major version. The minor and revision versions are default to 0s.
