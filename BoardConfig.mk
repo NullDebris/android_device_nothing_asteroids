@@ -10,6 +10,8 @@ include vendor/nothing/asteroids/BoardConfigVendor.mk
 
 BUILD_BROKEN_DUP_RULES := true
 
+include hardware/nothing/config.mk
+
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
