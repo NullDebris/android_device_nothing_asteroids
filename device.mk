@@ -177,6 +177,10 @@ PRODUCT_PACKAGES += \
     default-permissions-com.google.android.euicc.xml \
     privapp-permissions-com.google.android.euicc.xml
 
+# FeliCa
+PRODUCT_PACKAGES += \
+    NothingFelicaDisabler
+
 # FWK Detect
 PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti_vendor
