@@ -7,7 +7,7 @@
     <bool name="config_wifi5ghzSupport">true</bool>
 
     <!-- boolean indicating whether the WiFi chipset has 6GHz band support -->
-    <bool name="config_wifi6ghzSupport">true</bool>
+    <bool name="config_wifi6ghzSupport">false</bool>
 
     <!-- Whether to allow Settings or SUW to create insecure Enterprise networks where server
          certificate is not validated, by not specifying a Root CA certificate and/or server domain
@@ -42,7 +42,7 @@
     <bool name="config_wifiSaeUpgradeOffloadEnabled">true</bool>
 
     <!-- Wifi driver supports 6GHz band for softap when chip support 6GHz -->
-    <bool name="config_wifiSoftap6ghzSupported">true</bool>
+    <bool name="config_wifiSoftap6ghzSupported">false</bool>
 
     <!-- Wifi driver supports IEEE80211AX single user beamformee for softap -->
     <bool name="config_wifiSoftapHeSuBeamformeeSupported">true</bool>
