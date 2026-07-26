@@ -88,6 +88,10 @@ ro.frp.pst=/dev/block/bootdevice/by-name/frp
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
+# Fingerprint
+ro.vendor.fingerprint.type=udfps_optical
+ro.vendor.fingerprint.sensor_location=540|2176|92
+
 # Graphics
 debug.angle.feature_overrides_enabled=preferLinearFilterForYUV:mapUnspecifiedColorSpaceToPassThrough
 debug.graphics.game_default_frame_rate.disabled=0

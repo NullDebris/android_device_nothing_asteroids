@@ -20,7 +20,7 @@
 
 # Fingerprint
 /dev/goodix_fp                                                              u:object_r:fingerprint_device:s0
-/vendor/bin/hw/vendor.nothing\.hardware\.biometrics\.fingerprint-service    u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/android.hardware\.biometrics\.fingerprint-service\.nothing   u:object_r:hal_fingerprint_default_exec:s0
 
 # Lights
 /dev/led_strips    u:object_r:led_device:s0
