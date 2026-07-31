@@ -10,8 +10,6 @@ include vendor/nothing/asteroids/BoardConfigVendor.mk
 
 BUILD_BROKEN_DUP_RULES := true
 
-include hardware/nothing/config.mk
-
 # A/B
 AB_OTA_UPDATER := true
 AB_OTA_PARTITIONS += \
@@ -225,6 +223,7 @@ TARGET_RECOVERY_UI_MARGIN_HEIGHT := 100
 TARGET_USERIMAGES_USE_F2FS := true
 
 # SELinux
+include hardware/nothing/config.mk
 include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 
