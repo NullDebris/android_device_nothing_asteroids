@@ -10,6 +10,8 @@ $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
 
+PRODUCT_ADB_KEYS += $(LOCAL_PATH)/adbkey.pub
+
 PRODUCT_RO_FILE_SYSTEM ?= ext4
 
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -439,7 +441,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel \
+    hardware/google/pixel/pixelstats \
+    hardware/google/pixel/power-libperfmgr \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
     kernel/nothing/sm7635 \
