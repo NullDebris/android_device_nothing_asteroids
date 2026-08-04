@@ -34,6 +34,3 @@
 
 # Wakeup
 /sys/devices/platform/hypervisor/hypervisor:qcom,resource-manager-rpc@[0-9a-f]+/wakeup(/.*)?    u:object_r:sysfs_wakeup:s0
-
-# ZRAM
-/data/per_boot(/.*)?    u:object_r:per_boot_file:s0
