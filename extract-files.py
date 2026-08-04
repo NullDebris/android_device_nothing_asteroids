@@ -62,6 +62,8 @@ blob_fixups: blob_fixups_user_type = {
     'system_ext/lib64/libwfdservice.so': blob_fixup()
         .add_needed('libaudioclient_shim.so')
         .replace_needed('android.media.audio.common.types-V4.cpp.so', 'android.media.audio.common.types-V5-cpp.so'),
+    'system_ext/lib64/libwfdmmsrc_system.so': blob_fixup()
+        .add_needed('libgui_shim.so'),
     'system_ext/lib64/vendor.qti.hardware.qccsyshal@1.2-halimpl.so': blob_fixup()
         .replace_needed('libprotobuf-cpp-full.so','libprotobuf-cpp-full-21.7.so'), 
     'vendor/bin/qcc-vendor': blob_fixup()
