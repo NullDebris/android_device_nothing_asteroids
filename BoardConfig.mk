@@ -245,6 +245,8 @@ ODM_MANIFEST_JPN_FILES := $(DEVICE_PATH)/vintf/manifest_JPN.xml
 DEVICE_MANIFEST_SKUS += volcano
 DEVICE_MANIFEST_VOLCANO_FILES += $(DEVICE_PATH)/vintf/manifest_volcano.xml
 
+-include hardware/dolby/configs/vintf/config.mk
+
 # Wi-Fi
 BOARD_WLAN_DEVICE := qcwcn
 BOARD_HOSTAPD_DRIVER := NL80211
