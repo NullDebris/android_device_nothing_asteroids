@@ -126,7 +126,10 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/etc/init/vendor.qti.media.c2@1.0-service.rc': blob_fixup()
         .regex_replace(r'writepid\s+/dev/cpuset/foreground/tasks', 'task_profiles ProcessCapacityHigh HighPerformance'),
-    'vendor/etc/seccomp_policy/atfwd@2.0.policy': blob_fixup()
+    (   
+        'system_ext/etc/seccomp_policy/tcmd.policy',
+        'vendor/etc/seccomp_policy/atfwd@2.0.policy',
+    ): blob_fixup()
         .add_line_if_missing('lseek: 1'),
 }  # fmt: skip
 
