@@ -10,8 +10,6 @@ $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
 
-PRODUCT_ADB_KEYS += $(LOCAL_PATH)/adbkey.pub
-
 PRODUCT_RO_FILE_SYSTEM ?= ext4
 
 AB_OTA_POSTINSTALL_CONFIG += \
@@ -261,8 +259,6 @@ PRODUCT_PACKAGES += \
 
 
 # Lineage Health
-$(call soong_config_set,lineage_health,charging_control_charging_path,/proc/charger/usb_charger_en)
-
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
