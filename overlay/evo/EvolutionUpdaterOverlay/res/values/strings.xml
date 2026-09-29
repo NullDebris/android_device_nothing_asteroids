@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     SPDX-FileCopyrightText: 2025 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
+-->
+<resources>
+        <string name="menu_changelog_url">https://raw.githubusercontent.com/joshuah345/droidota/cnb/changelogs/Asteroids.txt</string>
+        <string name="updater_server_url">https://raw.githubusercontent.com/joshuah345/droidota/cnb/builds/Asteroids.json</string>
+</resources>

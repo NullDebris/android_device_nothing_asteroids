@@ -351,6 +351,7 @@ PRODUCT_PACKAGES += \
     WifiResCommon_Vendor \
     WifiResMainlineTarget \
     WifiResTarget \
+    EvolutionUpdaterOverlay \
     EvolutionSettingsOverlay
 
 # Partitions
