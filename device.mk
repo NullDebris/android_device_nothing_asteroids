@@ -350,7 +350,8 @@ PRODUCT_PACKAGES += \
     WifiResCommonMainline_Vendor \
     WifiResCommon_Vendor \
     WifiResMainlineTarget \
-    WifiResTarget
+    WifiResTarget \
+    EvolutionSettingsOverlay
 
 # Partitions
 PRODUCT_BUILD_RECOVERY_IMAGE := true
