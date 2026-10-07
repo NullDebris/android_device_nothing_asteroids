@@ -16,7 +16,7 @@ Storage | 128/256 GB, UFS 2.2
 Shipped Android Version | 15
 Battery | Li-ion 5000 mAh, non-removable
 Display | 1080 x 2392 pixels, 6.77 inches (~387 ppi density)
-Camera  | 50 MP wide, 50 MP telephoto / periscope telephoto², 32¹ / 50² MP front
+Camera  | 50 MP wide, 50 MP telephoto / periscope telephoto², 8 MP ultrawide, 32¹ / 50² MP front
 
 ### Note
 1. Only available on the Nothing Phone (3a)
