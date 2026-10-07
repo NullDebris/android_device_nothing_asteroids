@@ -5,5 +5,4 @@
 (typeattribute new_objects)
 (typeattributeset new_objects
   ( new_objects
-    glyph_app
     vendor_nothing_feature_prop))
