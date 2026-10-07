@@ -123,6 +123,10 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/etc/seccomp_policy/atfwd@2.0.policy',
     ): blob_fixup()
         .add_line_if_missing('lseek: 1'),
+    'system/framework/WfdCommon.jar': blob_fixup()
+        .apktool_patch('blob-patches/WfdCommon.patch'),
+    'system_ext/lib64/libwfdservice.so': blob_fixup()
+        .replace_needed('android.media.audio.common.types-V4-cpp.so', 'android.media.audio.common.types-V5-cpp.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
