@@ -103,7 +103,8 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libvolumelistener \
     sound_trigger.primary.volcano
-
+    
+TARGET_BUILD_DOLBY_EFFECTS := false
 
 # Biometrics
 PRODUCT_PACKAGES += \
