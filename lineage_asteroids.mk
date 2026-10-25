@@ -20,6 +20,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-nothing
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="qssi_64-user 16 BQ2A.250721.001-BP2A.250605.031.A3 2609281204 release-keys" \
     BuildFingerprint=Nothing/Asteroids/Asteroids:14/UKQ1.250612.001/2609281204:user/release-keys \
+    BuildSystemFingerprint=qti/qssi_64/qssi_64:16/BQ2A.250721.001-BP2A.250605.031.A3/2609281204:user/release-keys \
     DeviceName=Asteroids \
     DeviceProduct=Asteroids \
     SystemDevice=Asteroids \
