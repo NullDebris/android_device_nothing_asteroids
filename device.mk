@@ -185,6 +185,7 @@ PRODUCT_PACKAGES += \
     privapp-permissions-com.google.android.euicc.xml
 
 # Face Unlock 
+TARGET_PROVIDES_FACE_UNLOCK_HAL := true
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml
 
