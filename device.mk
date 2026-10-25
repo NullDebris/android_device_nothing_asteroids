@@ -181,6 +181,10 @@ PRODUCT_PACKAGES += \
     default-permissions-com.google.android.euicc.xml \
     privapp-permissions-com.google.android.euicc.xml
 
+# Face Unlock 
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.biometrics.face.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.biometrics.face.xml
+
 # FeliCa
 PRODUCT_PACKAGES += \
     NothingFelicaDisabler
@@ -339,6 +343,7 @@ PRODUCT_PACKAGES += \
     NcmTetheringOverlay \
     SecureElementResTarget_Vendor \
     SettingsResCommon_Vendor \
+    SettingsOverlayFaceUnlockNothing \
     SystemUIResCommon_Vendor \
     TelephonyResCommon_Sys \
     TelephonyResCommon_Vendor \
