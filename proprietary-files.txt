@@ -1316,9 +1316,6 @@ vendor/bin/pm-proxy
 vendor/bin/pm-service
 vendor/lib64/libperipheral_client.so
 
-# Power
-vendor/etc/powerhint.xml
-
 # Public Libraries
 vendor/etc/public.libraries.txt
 
