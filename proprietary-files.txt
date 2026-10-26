@@ -1207,7 +1207,6 @@ vendor/bin/hw/vendor.qti.psiclient@1.0-service
 vendor/etc/init/vendor.qti.pasrknob@1.0-service.rc
 vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
 vendor/lib64/libpasrutils.so
-vendor/lib64/libvmmem.so
 vendor/lib64/vendor.qti.memory.pasrmanager-V1-ndk.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
 vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
