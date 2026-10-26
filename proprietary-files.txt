@@ -1201,16 +1201,6 @@ vendor/lib64/libqcodec2_utils.so
 vendor/lib64/libqcodec2_v4l2codec.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
 
-# Memory
-vendor/bin/hw/pasrknob
-vendor/bin/hw/vendor.qti.psiclient@1.0-service
-vendor/etc/init/vendor.qti.pasrknob@1.0-service.rc
-vendor/etc/init/vendor.qti.psiclient@1.0-service.rc
-vendor/lib64/libpasrutils.so
-vendor/lib64/vendor.qti.memory.pasrmanager-V1-ndk.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.0.so
-vendor/lib64/vendor.qti.memory.pasrmanager@1.1.so
-
 # NFC
 vendor/etc/st21nfc_conf_base.txt
 vendor/etc/st21nfc_conf_pro.txt
