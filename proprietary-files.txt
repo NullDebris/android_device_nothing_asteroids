@@ -947,11 +947,11 @@ vendor/lib64/vendor.hardware.light-V1-ndk_platform.so
 product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED
 
 # Face Unlock - from Asteroids_C5.0-260915-2123
-vendor/bin/hw/android.hardware.biometrics.face-service.noth
+vendor/bin/hw/android.hardware.biometrics.face-service.noth|16c8c96cc286381852a1edb96f89b4b04813d86f
 vendor/etc/init/android.hardware.biometrics.face-service.noth.rc
 vendor/etc/vintf/manifest/android.hardware.biometrics.face-service.noth.xml
-vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v34.so;FIX_SONAME
-vendor/lib64/libstfaceunlockppl.so
+vendor/lib64/libcamera2ndk_vendor.so:vendor/lib64/libcamera2ndk_vendor-v34.so;FIX_SONAME|20c579b98ab58776e7fe0a200a8e190f42014cc5
+vendor/lib64/libstfaceunlockppl.so|cc8cfa3e6c0eb8ab79eb79c6dc2541cf1bfec1b4
 
 # FeliCa
 product/app/MobileFeliCaClient/MobileFeliCaClient.apk;PRESIGNED
