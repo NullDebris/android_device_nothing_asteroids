@@ -6,4 +6,13 @@
     <hal format="aidl" override="true">
         <name>android.hardware.secure_element</name>
     </hal>
+    <hal format="hidl" override="true">
+        <name>android.frameworks.cameraservice.service</name>
+        <transport>hwbinder</transport>
+        <version>2.2</version>
+        <interface>
+            <name>ICameraService</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
 </manifest>
