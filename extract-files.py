@@ -132,6 +132,8 @@ blob_fixups: blob_fixups_user_type = {
         .apktool_patch('blob-patches/WfdCommon.patch'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
         .replace_needed('android.media.audio.common.types-V4-cpp.so', 'android.media.audio.common.types-V5-cpp.so'),
+    'vendor/lib64/hw/libproviderextension.so' :blob_fixup()
+        .replace_needed('android.hardware.graphics.allocator-V2-ndk.so','android.hardware.graphics.allocator-V1-ndk.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
