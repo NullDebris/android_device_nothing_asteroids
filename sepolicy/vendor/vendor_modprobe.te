@@ -1,0 +1,2 @@
+allow vendor_modprobe system_dlkm_file:system module_load;
+r_dir_file(vendor_modprobe, { system_dlkm_file });

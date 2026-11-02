@@ -65,6 +65,7 @@ import /vendor/etc/init/hw/init.qti.kernel.rc
 on early-init
     write /proc/sys/kernel/printk_devkmsg ratelimited
     export MEMTAG_OPTIONS off
+    exec_start gki.modprobe
 
 on init
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
@@ -212,4 +213,14 @@ service fan_control_turn_off /vendor/bin/fan_service 0
     class late_start
     user root
     disabled
+    oneshot
+
+
+service gki.modprobe /vendor/bin/system_dlkm_modprobe.sh
+    class main
+    user root
+    group root system
+    disabled
+    stdio_to_kmsg
+    seclabel u:r:vendor_modprobe:s0
     oneshot
