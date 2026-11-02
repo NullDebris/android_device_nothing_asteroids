@@ -5,7 +5,7 @@ VENDOR_DLKM_DIR="/vendor_dlkm/lib/modules"
 
 MODPROBE="/vendor/bin/modprobe"
 
-for dir in ${SYSTEM_DLKM_DIR} ;
+for dir in ${SYSTEM_DLKM_DIR}/* ;
 do
 	if [ -e ${VENDOR_DLKM_DIR}/system_dlkm.modules.blocklist ] && grep -q blocklist ${VENDOR_DLKM_DIR}/system_dlkm.modules.blocklist; then
 		blocklist_expr="$(sed -n -e 's/blocklist \(.*\)/\1/p' ${VENDOR_DLKM_DIR}/system_dlkm.modules.blocklist | sed -e 's/-/[-_]/g' -e 's/^/-e /')"
